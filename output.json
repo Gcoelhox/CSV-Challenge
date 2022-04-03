@@ -1,11 +1,10 @@
 [
   {
     "fullname": "John Appleseed",
-    "eid": "1121",
+    "eid": "104",
     "groups": [
-      "Turma 1 ",
-      "Turma 6",
-      "Noturno"
+      "Sala 1 ",
+      "Sala 3"
     ],
     "addresses": [
       {
@@ -13,7 +12,7 @@
         "tags": [
           "Student"
         ],
-        "address": "john.appleseed@exemplo.com"
+        "address": "john.appleseed@exemplo.com :("
       },
       {
         "type": "phone",
@@ -25,28 +24,41 @@
       {
         "type": "email",
         "tags": [
-          "Parent"
+          "Pedagogical,Responsible"
         ],
         "address": "dad.appleseed@exemplo.com"
       },
       {
         "type": "phone",
         "tags": [
-          "Parent"
+          "Pedagogical,Responsible"
         ],
         "address": "(11) 99991-1234"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": "mom.appleseed@exemplo.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": "(11) 99992-1234"
       }
     ],
     "invisible": true,
-    "see_all": true
+    "see_all": false
   },
   {
     "fullname": "John Appleseed",
-    "eid": "1222",
+    "eid": "104",
     "groups": [
-      "Turma 2,Turma 5",
-      " Turma 6",
-      "Diurno"
+      "Sala 2,Sala 5",
+      " Sala 6"
     ],
     "addresses": [
       {
@@ -66,16 +78,30 @@
       {
         "type": "email",
         "tags": [
-          "Parent"
+          "Pedagogical,Responsible"
         ],
-        "address": "dad.appleseed1@exemplo/dad.appleseed2@exemplo.com"
+        "address": "dad.appleseed1@exemplo.com/dad.appleseed2@exemplo.com"
       },
       {
         "type": "phone",
         "tags": [
-          "Parent"
+          "Pedagogical,Responsible"
         ],
         "address": "(11) 99991-1235"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": ""
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": ""
       }
     ],
     "invisible": true,
@@ -83,11 +109,10 @@
   },
   {
     "fullname": "Mary Knight",
-    "eid": "1123",
+    "eid": "105",
     "groups": [
-      "",
-      "",
-      ""
+      "Sala 4",
+      "Sala 5, Sala 6"
     ],
     "addresses": [
       {
@@ -95,7 +120,7 @@
         "tags": [
           "Student"
         ],
-        "address": "mary.knightexemplo.com"
+        "address": "mary.knight@exemplo.com"
       },
       {
         "type": "phone",
@@ -107,14 +132,28 @@
       {
         "type": "email",
         "tags": [
-          "Parent"
+          "Pedagogical,Responsible"
         ],
         "address": "dad.knight@exemplo.com"
       },
       {
         "type": "phone",
         "tags": [
-          "Parent"
+          "Pedagogical,Responsible"
+        ],
+        "address": ""
+      },
+      {
+        "type": "email",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": "mom.knight@exemplo.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "Financial,Responsible"
         ],
         "address": ""
       }
@@ -124,10 +163,9 @@
   },
   {
     "fullname": "Jack Littleton",
-    "eid": "1124",
+    "eid": "106",
     "groups": [
       "Sala 1",
-      "",
       ""
     ],
     "addresses": [
@@ -143,21 +181,89 @@
         "tags": [
           "Student"
         ],
-        "address": "13 99990"
+        "address": "(13) 99990"
       },
       {
         "type": "email",
         "tags": [
-          "Parent"
+          "Pedagogical,Responsible"
         ],
         "address": ""
       },
       {
         "type": "phone",
         "tags": [
-          "Parent"
+          "Pedagogical,Responsible"
         ],
         "address": "(13) 99991-1236"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": "mom.littleton@exemplo.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": "(13) 999921236"
+      }
+    ],
+    "invisible": false,
+    "see_all": false
+  },
+  {
+    "fullname": "Kate Goldman",
+    "eid": "107",
+    "groups": [
+      "Sala 6",
+      "Sala 7"
+    ],
+    "addresses": [
+      {
+        "type": "email",
+        "tags": [
+          "Student"
+        ],
+        "address": "kate.goldman@exemplo.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "Student"
+        ],
+        "address": "14999901237"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "Pedagogical,Responsible"
+        ],
+        "address": "dad.goldman@exemplo.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "Pedagogical,Responsible"
+        ],
+        "address": ""
+      },
+      {
+        "type": "email",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": "mom.goldman@exemplo.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "Financial,Responsible"
+        ],
+        "address": "(14) 99992-1237"
       }
     ],
     "invisible": false,
